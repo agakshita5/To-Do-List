@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #80546C;
+    color: #BCAB97;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.heading-container{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.heading-container i{
+    font-size: 4rem;
+    animation: logoAni 3s steps(100) infinite normal ;
+}
+@keyframes logoAni{
+    from{transform:rotateY(0deg);}
+    to{transform:rotateY(360deg);}
+
+}
+
+.add-task-container{
+    min-height: 5vh;
+    width: 40vw;
+    background-color: #DBD5BF;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    font-size: 1.5rem;
+    text-decoration: none;
+    background-color:#DBD5BF;
+    border:none;
+    outline: none;
+    text-align: left;
+}
+.add-task-container i{
+    font-size: 2rem;
+    color: #80546C;
+}
+
+.task-list-container{
+    /* font-size: 1.5rem;
+    background-color: #DBD5BF;
+    padding: 1rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 40vw;
+    margin-top: 2rem; */
+}
+
+.form{
+    font-size: 1.5rem;
+    background-color: #DBD5BF;
+    padding: 1rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 40vw;
+    margin-top: 2rem;
+}
+
+.task-label{
+    margin-left: 1rem;
+}
+
