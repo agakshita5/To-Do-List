@@ -53,26 +53,26 @@ input{
 }
 
 .task-list-container{
-    /* font-size: 1.5rem;
-    background-color: #DBD5BF;
-    padding: 1rem;
-    border-radius: 1rem;
-    min-height: 45vh;
-    width: 40vw;
-    margin-top: 2rem; */
-}
-
-.form{
+    display: block;
     font-size: 1.5rem;
     background-color: #DBD5BF;
+    color: #80546C;
     padding: 1rem;
     border-radius: 1rem;
+    margin-top: 2rem;
     min-height: 45vh;
     width: 40vw;
-    margin-top: 2rem;
+}
+
+ol{
+    list-style-type: none;
 }
 
 .task-label{
     margin-left: 1rem;
+}
+
+.strikethrough{
+    text-decoration: line-through;
 }
 
